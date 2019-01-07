@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import ListHotels from './ListHotels.js';
 class App extends Component {
   render() {
     return (
@@ -9,15 +9,18 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Hello World
           </p>
+          <ListHotels />
+          <ListHotels />
+          <ListHotels />
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            This is my first app
           </a>
         </header>
       </div>
